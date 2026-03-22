@@ -15,7 +15,6 @@ A GNOME Shell Quick Settings toggle for Proton VPN. Shows the connected server n
 
 - GNOME Shell 45–49
 - Proton VPN desktop app installed (native or Flatpak)
-- `protonvpn-cli` in PATH
 
 ## Installation
 
@@ -39,12 +38,12 @@ Open the extension preferences via GNOME Extensions app or Settings → Extensio
 
 | Option | Description |
 |--------|-------------|
-| Background status checks | Periodically poll `protonvpn-cli status` to update the indicator |
+| Background status checks | Periodically re-read VPN state from GNOME's network panel |
 | Status check frequency | How often to poll (1–3600 seconds, default 10s) |
 
 ## How It Works
 
-The toggle reads VPN state from GNOME's built-in Quick Settings network panel. When the connected VPN name contains "ProtonVPN", the toggle reflects the active connection and shows the server name as a subtitle. Clicking the toggle opens or closes the Proton VPN application window.
+The extension reads VPN state passively from GNOME's built-in Quick Settings network panel. When the active VPN connection name contains "ProtonVPN", the toggle reflects the connection and shows the server name as a subtitle. Clicking the toggle opens or closes the Proton VPN application window.
 
 ## License
 
