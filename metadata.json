@@ -1,0 +1,13 @@
+{
+  "name": "Proton VPN Toggle",
+  "description": "Quick Settings toggle for Proton VPN. Shows connected server name. Requires protonvpn-cli in PATH.\n\nThis extension is not affiliated, funded, or in any way associated with Proton AG.",
+  "uuid": "proton-vpn-toggle@citx",
+  "settings-schema": "org.gnome.shell.extensions.proton-vpn-toggle",
+  "shell-version": [
+    "45",
+    "46",
+    "47",
+    "48",
+    "49"
+  ]
+}
