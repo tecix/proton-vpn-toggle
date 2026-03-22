@@ -1,5 +1,6 @@
 {
   "name": "Proton VPN Toggle",
+  "author": "tecix",
   "description": "Quick Settings toggle for Proton VPN. Shows connected server name. Requires protonvpn-cli in PATH.\n\nThis extension is not affiliated, funded, or in any way associated with Proton AG.",
   "uuid": "proton-vpn-toggle@citx",
 "shell-version": [
